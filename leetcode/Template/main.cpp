@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <stack>
 #include <climits>
+#include <cctype>
 
 using namespace std;
 
