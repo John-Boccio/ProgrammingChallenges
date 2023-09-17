@@ -5,6 +5,7 @@
 #include <stack>
 #include <climits>
 #include <cctype>
+#include <cmath>
 
 using namespace std;
 
