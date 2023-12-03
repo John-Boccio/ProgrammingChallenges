@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:AdventOfCode_2023}",
+            "name": "Debug AoC",
+            "program": "${workspaceFolder:AdventOfCode_2023}/.build/debug/AoC",
+            "preLaunchTask": "swift: Build Debug AoC"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:AdventOfCode_2023}",
+            "name": "Release AoC",
+            "program": "${workspaceFolder:AdventOfCode_2023}/.build/release/AoC",
+            "preLaunchTask": "swift: Build Release AoC"
+        }
+    ]
+}
