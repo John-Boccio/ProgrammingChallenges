@@ -11,7 +11,7 @@ public struct AoC {
             return
         }
 
-        let result = Day1.solve(inputDir: inputsDir)
+        let result = Day2.solve(inputDir: inputsDir)
         if let result {
             print("Solution: \(result)")
         } else {
